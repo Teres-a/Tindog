@@ -1,0 +1,184 @@
+/* elements */
+
+body{
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color:#8F8F8F;
+}
+
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height:1.5
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* nav-bar */
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar{
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  margin:0 30px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+
+/* title */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.phone{
+  position: absolute;
+  right: 30%;
+  width:60%;
+  transform: rotate(25deg);
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Features */
+#features{
+  position:relative;
+  padding: 7% 15%;
+  z-index:1;
+  background-color: white;
+}
+
+.feature-title{
+  font-size:1.5rem;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4C68;
+
+}
+
+ /* Testimonials */
+ #testimonials{
+   background-color: #EF8172;
+   color:white;
+   text-align: center;
+ }
+
+.testimonial-header{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+ #press{
+   background-color: #EF8172;
+   padding: 3%;
+   text-align: center;
+
+ }
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.card-block{
+  padding:3% 2%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Action */
+#cta{
+  background-color: #ff4c68;
+  color:white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-h3{
+  font-size: 3.5rem;
+  margin-bottom: 50px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cta-b{
+  margin: 0 10px;
+}
+/* Footer */
+#footer{
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-icon{
+  margin: 0 10px;
+}
+
+.footer-p{
+  margin-top: 10px;
+}
+
+/* responsive */
+/* making it more responsive, max-width means that everything below this width will do the following command. */
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .phone{
+    position:static;
+    transform: rotate(0);
+  }
+}
